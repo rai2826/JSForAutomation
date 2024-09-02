@@ -15,3 +15,5 @@ console.log(gaurav["city"]);
 
 const gauravarray = ["firstName", "lastName", "age", "city", "country"];
 console.log(gaurav[gauravarray[0]]);
+gaurav.job = "Engineer";
+console.log(gaurav);

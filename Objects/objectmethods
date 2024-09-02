@@ -1,0 +1,14 @@
+// objects can hold key value pair, value can be anything and hold any data type- strings,numbers,arrays or even a function
+const gaurav = {
+  firstName: "Gaurav", //holds a string value
+  lastName: "Rai",
+  birthYear: 1987, //holds a number
+  city: "Melbourne",
+  country: "Australia",
+  // it can hold a functions as well
+  age: function () {
+    return 2024 - this.birthYear;
+  },
+};
+
+console.log(gaurav.age());

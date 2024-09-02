@@ -1,0 +1,17 @@
+const gaurav = {
+  firstName: "Gaurav",
+  lastName: "Rai",
+  age: 2024 - 1987,
+  city: "Melbourne",
+  country: "Australia",
+};
+
+//console.log(gaurav);
+//Get property using dot notation- objectname.propertyname
+console.log(gaurav.lastName);
+
+//if you have to compute the property name then use the bracket notation
+console.log(gaurav["city"]);
+
+const gauravarray = ["firstName", "lastName", "age", "city", "country"];
+console.log(gaurav[gauravarray[0]]);
